@@ -8,7 +8,7 @@
  * Text Domain: blacklist-updater
  * License:     GPLv2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html für
- * Version:     1.0.1
+ * Version:     1.0.2
  *
  * @package BlockListUpdater
  */
@@ -94,14 +94,14 @@ spl_autoload_register( 'blacklist_updater_autoload' );
 /**
  * Plugin autoloader.
  *
- * @param string $class The classname.
+ * @param string $class_name The classname.
  */
-function blacklist_updater_autoload( $class ) {
-	if ( in_array( $class, array( 'Blacklist_Updater' ) ) ) {
+function blacklist_updater_autoload( $class_name ) {
+	if ( in_array( $class_name, array( 'Blacklist_Updater' ), true ) ) {
 		require_once sprintf(
 			'%s/inc/class-%s.php',
 			dirname( __FILE__ ),
-			strtolower( str_replace( '_', '-', $class ) )
+			strtolower( str_replace( '_', '-', $class_name ) )
 		);
 	}
 }
