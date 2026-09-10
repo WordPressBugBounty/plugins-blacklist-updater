@@ -3,7 +3,7 @@
 * Tags:              spam, antispam, comments, blocklist, blacklist
 * Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=TD4AMD2D8EMZW
 * Requires at least: 3.8
-* Tested up to:      6.8
+* Tested up to:      6.9
 * Requires PHP:      5.2
 * Stable tag:        1.0.2
 * License:           GPLv2 or later
@@ -33,6 +33,12 @@ The plugin will check the global comment block list on GitHub multiple times a d
 ### Credits ###
 * Author: [Sergej Müller](https://sergejmueller.github.io/)
 * Maintainers: [pluginkollektiv](https://pluginkollektiv.org/)
+
+
+## Frequently Asked Questions ##
+
+### How can I report security bugs? ###
+You can report security bugs through the Patchstack Vulnerability Disclosure Program. The Patchstack team help validate, triage and handle any security vulnerabilities. [Report a security vulnerability.](https://patchstack.com/database/vdp/ff9accd7-0353-479d-8382-a24617c44c61)
 
 
 ## Changelog ##
